@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +21,9 @@ p,
 ul,
 ol,
 li,
-blockquote {
+blockquote,
+address,
+button {
   margin: 0;
   padding: 0;
 }
@@ -32,3 +35,15 @@ a {
 img {
   width: 100%;
 }
+
+h1 {
+  font-family: Raleway,;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 115px;
+}
+
+p {
+  line-height: 24px;
+}
+
